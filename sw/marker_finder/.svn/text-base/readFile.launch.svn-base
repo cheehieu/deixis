@@ -1,0 +1,4 @@
+<launch>
+  <master auto="start"/>
+  <node pkg="marker_finder" type="marker_finder"/>
+</launch>

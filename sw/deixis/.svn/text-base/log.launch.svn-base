@@ -1,0 +1,9 @@
+<launch>
+    <!-- might have to configure the laser properly (read/write) in a terminal: $sudo chmod a+rw /dev/ttyUSB0 -->
+    <node pkg="sicktoolbox_wrapper" type="sicklms" name="sicklms">
+        <param name="port" value="/dev/ttyUSB0" />
+    </node>
+    <node pkg="marker_finder" type="marker_finder" name="marker_finder" />
+    <node pkg="rviz" type="rviz" name="rviz_marker_finder_record" args="-d $(find deixis)/marker_finder_laser.vcg" />
+    <!--node pkg="deixis" type="deixis" name="deixis" output="screen" /-->
+</launch>

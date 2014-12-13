@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/interaction/svn/!svn/ver/610/trunk/ros-pkg/bag2video/src/video2bag
+END
+write_video.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/interaction/svn/!svn/ver/610/trunk/ros-pkg/bag2video/src/video2bag/write_video.cpp
+END
+read_video.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/interaction/svn/!svn/ver/610/trunk/ros-pkg/bag2video/src/video2bag/read_video.cpp
+END
+record_bag.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/interaction/svn/!svn/ver/610/trunk/ros-pkg/bag2video/src/video2bag/record_bag.cpp
+END

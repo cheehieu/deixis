@@ -1,0 +1,21 @@
+<package>
+  <description brief="bag2video">
+
+     bag2video
+
+  </description>
+  <author>Aaron St.Clair</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/bag2video</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="rosrecord"/>
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="cv_bridge"/>
+  <depend package="opencv2"/>
+</package>
+
+

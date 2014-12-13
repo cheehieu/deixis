@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/interaction/svn/!svn/ver/557/trunk/ros-pkg/deixis/sounds
+END
+begin.wav
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/interaction/svn/!svn/ver/330/trunk/ros-pkg/deixis/sounds/begin.wav
+END
+log_failed.wav
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/interaction/svn/!svn/ver/557/trunk/ros-pkg/deixis/sounds/log_failed.wav
+END
+log_succeeded.wav
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/interaction/svn/!svn/ver/330/trunk/ros-pkg/deixis/sounds/log_succeeded.wav
+END
+end.wav
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/interaction/svn/!svn/ver/330/trunk/ros-pkg/deixis/sounds/end.wav
+END
+change_pose.wav
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/interaction/svn/!svn/ver/330/trunk/ros-pkg/deixis/sounds/change_pose.wav
+END
+prev_event.wav
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/interaction/svn/!svn/ver/330/trunk/ros-pkg/deixis/sounds/prev_event.wav
+END
+next_event.wav
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/interaction/svn/!svn/ver/330/trunk/ros-pkg/deixis/sounds/next_event.wav
+END

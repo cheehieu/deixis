@@ -1,0 +1,7 @@
+To make video exporting work OpenCV needs to be compiled with ffmpeg support. Currently this option is turned off in the ROS opencv2 package. To fix it:
+
+roscd opencv2
+
+edit the Makefile's CMAKE_ARGS to use -D WITH_FFMPEG=ON
+
+recompile

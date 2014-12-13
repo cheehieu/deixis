@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/interaction/svn/!svn/ver/557/trunk/ros-pkg/marker_finder/src
+END
+LaserScanHelpers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/interaction/svn/!svn/ver/434/trunk/ros-pkg/marker_finder/src/LaserScanHelpers.cpp
+END
+Point2D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/interaction/svn/!svn/ver/309/trunk/ros-pkg/marker_finder/src/Point2D.cpp
+END
+SimpleMath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/interaction/svn/!svn/ver/309/trunk/ros-pkg/marker_finder/src/SimpleMath.cpp
+END
+ScanAggregator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/interaction/svn/!svn/ver/557/trunk/ros-pkg/marker_finder/src/ScanAggregator.cpp
+END
+marker_finder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/interaction/svn/!svn/ver/557/trunk/ros-pkg/marker_finder/src/marker_finder.cpp
+END
+Point.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/interaction/svn/!svn/ver/309/trunk/ros-pkg/marker_finder/src/Point.cpp
+END

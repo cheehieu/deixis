@@ -1,0 +1,13 @@
+<launch>
+	<machine name="miniPC" address="brooklyn" />
+	<machine name="desktop" address="jermaine" />
+	
+	<node pkg="sicktoolbox_wrapper" type="sicklms" name="sicklms" machine="miniPC">
+		<param name="port" value="/dev/ttyUSB0" />
+	</node>	
+	<node pkg="bandit" type="bandit_node" name="bandit_node" machine="miniPC"/>
+	
+	<node pkg="deixis" type="deixis" name="deixis" machine="desktop"/>
+	<node pkg="marker_finder" type="marker_finder" name="marker_finder" machine="desktop"/>
+
+</launch>

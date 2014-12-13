@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/interaction/svn/!svn/ver/610/trunk/ros-pkg/bag2video
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/interaction/svn/!svn/ver/557/trunk/ros-pkg/bag2video/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/interaction/svn/!svn/ver/557/trunk/ros-pkg/bag2video/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/interaction/svn/!svn/ver/610/trunk/ros-pkg/bag2video/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/interaction/svn/!svn/ver/557/trunk/ros-pkg/bag2video/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/interaction/svn/!svn/ver/564/trunk/ros-pkg/bag2video/README
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/interaction/svn/!svn/ver/557/trunk/ros-pkg/marker_finder
+END
+scan_shadow_filter.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/interaction/svn/!svn/ver/434/trunk/ros-pkg/marker_finder/scan_shadow_filter.yaml
+END
+readFile.launch
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/interaction/svn/!svn/ver/309/trunk/ros-pkg/marker_finder/readFile.launch
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/interaction/svn/!svn/ver/425/trunk/ros-pkg/marker_finder/.gitignore
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/interaction/svn/!svn/ver/434/trunk/ros-pkg/marker_finder/manifest.xml
+END
+scan_shadow_filter.launch
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/interaction/svn/!svn/ver/434/trunk/ros-pkg/marker_finder/scan_shadow_filter.launch
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/interaction/svn/!svn/ver/309/trunk/ros-pkg/marker_finder/mainpage.dox
+END
+readLaser.launch
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/interaction/svn/!svn/ver/309/trunk/ros-pkg/marker_finder/readLaser.launch
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/interaction/svn/!svn/ver/434/trunk/ros-pkg/marker_finder/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/interaction/svn/!svn/ver/312/trunk/ros-pkg/marker_finder/Makefile
+END
