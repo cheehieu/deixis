@@ -1,0 +1,19 @@
+<launch>
+    <!--machine name="miniPC" address="brooklyn"-->
+    <!--machine name="desktop" address="jermaine"-->
+
+    <node respawn="true" pkg="wiimote"  type="wiimote_node.py" name="marker_finder_wii" output="screen"/>
+
+    <!--node pkg="sicktoolbox_wrapper" type="sicklms" name="sicklms">
+        <param name="port" value="/dev/ttyUSB0"/>
+        <!--param name="baud" value="38400"/-->
+    </node-->
+
+    <!--node pkg="marker_finder" type="marker_finder" name="marker_finder"/-->
+
+    <node pkg="mfind_scratch" type="mfind_scratch" name="mfind_scratch" output="screen"/>
+
+    <!--node pkg="deixis" type="marker_finder_record" name="mfind_rec" output="screen"/-->
+
+</launch>
+

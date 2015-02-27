@@ -1,0 +1,18 @@
+<package>
+  <description brief="mfind_scratch">
+
+     mfind_scratch
+
+  </description>
+  <author>Aaron St.Clair</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/mfind_scratch</url>
+  <depend package="roscpp"/>
+  <depend package="wiimote"/>
+  <depend package="joy"/>
+  <depend package="marker_finder"/>
+  <!--rosdep name="joystick"/-->
+</package>
+
+
