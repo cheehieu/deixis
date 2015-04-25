@@ -4,38 +4,41 @@ title: deixis
 subtitle: Modeling the human perception of robotic deictic gestures.
 ---
 
-<img src="images/deixis_thumbnail.jpg">
+<img src="http://niftyhedgehog.com/deixis/images/deixis_thumbnail.jpg">
 
 ## Overview
-Deixis is an HRI experiment that was developed by Ph.D candidates, Aaron St. Clair and Ross Mead. It is a system for situated head and arm motion specification playback for modeling human perception of robot deictic gestures. The experiment incorporates the Bandit-II as the gesturing robot, the SICK LMS for finding markers, Point Grey Firefly MV Cameras for head-tracking with the ARToolKit, and the Nintendo Wiimote for facilitating the procedure.
+* What is a deictic gesture, behavior?
+Deixis is a human-robot interaction (HRI) experiment that is a system for situated head and arm motion specification playback for modelling the human perception of robot deictic gestures. The experiment incorporates the "Bandit II" as the gesturing robot, the SICK LMS for finding markers, Point Grey Firefly MV Cameras for head-tracking with the ARToolKit, and a Nintendo Wiimote for facilitating the procedure.
 
 Modeled the human perception of robotic deictic gestures—multi-modal nonverbal communication—with salient objects to explore human-robot interaction. Utilized ROS to handle an experiment involving the Bandit II robot, marker pointers, SICK-LMS laser range finder, overhead and forward-facing cameras, head tracking, Wiimote controller, OpenCV, ARToolkit+. Ran experiments on 15+ human test subjects.
 
-* What is a deictic gesture, behavior?
 * Calibration and capture from cameras in a smartroom environment
 * Modeling Non-verbal Communication in Human-Robot Task Collaborations
 * Investigating Robot Deictic Behaviors
 
 Practical models for gesture formulation in collocated task environments
-In many collocated human-robot interaction scenarios, robots are required to accurately and unambiguously indicate an object or point of interest in the environment. Realistic, cluttered environments containing many visually salient targets can present a challenge for the observer of such pointing behavior. In this paper, we describe an experiment and results detailing the effects of visual saliency and pointing modality on human perceptual accuracy of a robot’s deictic gestures (head and arm pointing) and compare the results to the perception of human pointing.
-This project was developed in summer 2010 during an NSF research fellowship under the direction of Aaron St. Clair and Dr. Maja Matarić. 
+This project was developed in the summer of 2010 during an NSF research fellowship under the direction of Ph.D candidates, Aaron St. Clair and Ross Mead, and Dr. Maja Matarić. 
 
 ## Hardware
-* Bandit robots
-* Wiimote
-* SICK laser range finder
-* Cameras
-* Overhead cameras
+* [Bandit II](http://robotics.usc.edu/interaction/?l=Laboratory:Facilities#BanditII), an expressive humanoid robot
+* [SICK LMS200](https://mysick.com/PDF/Create.aspx?ProductID=33755&Culture=en-US) laser range finder
+* [Point Grey Firefly MV](http://www.ptgrey.com/firefly-mv-usb2-cameras) cameras for overhead tracking
+* Nintendo [Wiimote](http://en.wikipedia.org/wiki/Wii_Remote) controller for wireless facilitation of the experiment
+* Plexiglass screen with salient points
+
 
 ## Software
 * ROS
 * R plots
 
+### Wiimote
 I programmed the Wiimote controller using the ROS wiimote package, which allows communication with ROS nodes through the ROS framework. Connecting through Bluetooth, the /joy node returns button, LED, rumble, and accelerometer/gyro data. My program uses this data, along with sensor input from the SICK Laser Measurement Sensor, to save waypoint coordinates for the Deixis Experiment (see above).
 
+### Camera Calibration
 Started working on stereo camera calibration for Bandit. The stereo camera setup simulates human binocular vision, thus having the ability to capture three-dimensional images, such as me sitting at my desk.
 
-The bag2video pacakge is a utilty that will consume a bag file of compressed images, and return a .avi file (hence the name, "bag2video"). It uses image_transport for publishing/subscribing to images between ROS nodes, and CvBridge to convert between ROS image messages and OpenCV IPLimages--all part of ROS. The videos I converted use ARTags, which are used for tracking head orientation through augmented reality. 
+### Bag Files
+The bag2video package is a utility that will consume a bag file of compressed images, and return a .avi file (hence the name, "bag2video"). It uses image_transport for publishing/subscribing to images between ROS nodes, and CvBridge to convert between ROS image messages and OpenCV IPLimages--all part of ROS. The videos I converted use ARTags, which are used for tracking head orientation through augmented reality. 
 bag2video can also create a video file at a variable framerate, given a directory of .jpg images.
 
 ## Experiment
